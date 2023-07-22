@@ -11,40 +11,35 @@ Note: You have to perform user-based collaborative filtering and item-based coll
 
 ### Dataset description:
 
-* BX-Users: It contains the information of users.
+*BX-Users: It contains the information of users.
 
-** user_id - These have been anonymized and mapped to integers
+ user_id - These have been anonymized and mapped to integers
 
-** Location - Demographic data is provided
+ Location - Demographic data is provided
 
-** Age - Demographic data is provided
+ Age - Demographic data is provided
 
-** If available, otherwise, these fields contain NULL-values.
+ If available, otherwise, these fields contain NULL-values.
 
- 
+ * BX-Books: 
 
-* BX-Books: 
+ isbn - Books are identified by their respective ISBNs. Invalid ISBNs have already been removed from the dataset.
 
-** isbn - Books are identified by their respective ISBNs. Invalid ISBNs have already been removed from the dataset.
+ book_title
 
-** book_title
+ book_author
 
-** book_author
+ year_of_publication
 
-** year_of_publication
-
-** publisher
-
-
- 
+ publisher
 
 * BX-Book-Ratings: Contains the book rating information. 
 
-** user_id
+ user_id
 
-** isbn
+ isbn
 
-** rating - Ratings (`Book-Rating`) are either explicit, expressed on a scale from 1–10 (higher values denoting higher appreciation), or implicit, expressed by 0.
+ rating - Ratings (`Book-Rating`) are either explicit, expressed on a scale from 1–10 (higher values denoting higher appreciation), or implicit, expressed by 0.
 
  ### Following operations should be performed:
 
