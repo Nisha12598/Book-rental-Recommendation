@@ -11,7 +11,7 @@ Note: You have to perform user-based collaborative filtering and item-based coll
 
 ### Dataset description:
 
-*BX-Users: It contains the information of users.
+* BX-Users: It contains the information of users.
 
  user_id - These have been anonymized and mapped to integers
 
